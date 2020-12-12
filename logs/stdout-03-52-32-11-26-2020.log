@@ -1,0 +1,3 @@
+03:52:05.759 INFO  [main] de.adrian.thesis.generator.benchmark.netty.NettyBenchmark - Starting NettyBenchmark with maxMessages: 500, initialPersons: 50, messagePerSecond: 50, yahooGeneratorName: notIndependent, port: 31000, name: DefaultInstance@nabil-OMEN-by-HP-Laptop-15-dh0xxx, timeout: 120
+03:52:10.210 INFO  [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestInitializer - Client connected from localhost:53780
+03:52:32.057 ERROR [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestHandler - Channel localhost/127.0.0.1:53780 became inactive

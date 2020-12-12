@@ -1,0 +1,7 @@
+02:57:06.749 INFO  [main] de.adrian.thesis.generator.benchmark.netty.NettyBenchmark - Starting NettyBenchmark with maxMessages: 500, initialPersons: 50, messagePerSecond: 50, yahooGeneratorName: notIndependent, port: 31000, name: DefaultInstance@nabil-OMEN-by-HP-Laptop-15-dh0xxx, timeout: 120
+02:57:15.634 INFO  [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestInitializer - Client connected from localhost:53198
+02:57:15.652 INFO  [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestHandler - Received '0:persons' from localhost/127.0.0.1:53198
+02:57:26.510 ERROR [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestHandler - Channel localhost/127.0.0.1:53198 became inactive
+02:57:26.511 ERROR [NettyForwardingThread] de.adrian.thesis.generator.benchmark.netty.NettyStringForwardingThread - NettyForwardingThread was interrupted
+02:57:26.513 ERROR [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyStringForwardingThread - Successfully closed channel localhost/127.0.0.1:53198
+02:59:15.628 INFO  [epollEventLoopGroup-2-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkServerHandler - Closing server after no request for 120 seconds

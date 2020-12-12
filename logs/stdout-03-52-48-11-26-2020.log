@@ -1,0 +1,2 @@
+03:52:37.533 INFO  [main] de.adrian.thesis.generator.benchmark.netty.NettyBenchmark - Starting NettyBenchmark with maxMessages: 500, initialPersons: 50, messagePerSecond: 50, yahooGeneratorName: notIndependent, port: 31000, name: DefaultInstance@nabil-OMEN-by-HP-Laptop-15-dh0xxx, timeout: 120
+03:52:48.105 INFO  [epollEventLoopGroup-3-1] de.adrian.thesis.generator.benchmark.netty.NettyBenchmarkRequestInitializer - Client connected from localhost:53792

@@ -1,0 +1,13 @@
+02:46:09.132 INFO  [main] de.adrian.thesis.generator.benchmark.javaio.SocketBenchmark - Starting SocketBenchmark on port 9117 with maxNumberOfMessages 500
+02:46:09.137 INFO  [ForwardingThread] de.adrian.thesis.generator.benchmark.javaio.ForwardingThread - Waiting for connections on port 9117...
+02:46:09.260 ERROR [ForwardingThread] de.adrian.thesis.generator.benchmark.javaio.ForwardingThread - Timeout after one minute...
+02:46:09.260 INFO  [ForwardingThread] de.adrian.thesis.generator.benchmark.javaio.SocketBenchmark - SocketBenchmark interrupted due to 'ForwardingThread finished'
+02:46:09.260 ERROR [Thread-1] de.adrian.thesis.generator.benchmark.javaio.ThroughputLoggingThread - ThroughputLoggingThread was interrupted
+02:46:09.260 ERROR [ForwardingThread] de.adrian.thesis.generator.benchmark.javaio.ForwardingThread - Exception interrupting loggingThread in ForwardingThread
+java.lang.InterruptedException: null
+	at java.lang.Object.wait(Native Method) ~[?:?]
+	at java.lang.Thread.join(Thread.java:1305) ~[?:?]
+	at java.lang.Thread.join(Thread.java:1380) ~[?:?]
+	at de.adrian.thesis.generator.benchmark.javaio.ForwardingThread.stopConsuming(ForwardingThread.java:147) [main/:?]
+	at de.adrian.thesis.generator.benchmark.javaio.SocketBenchmark.finishApplication(SocketBenchmark.java:67) [main/:?]
+	at de.adrian.thesis.generator.benchmark.javaio.ForwardingThread.run(ForwardingThread.java:51) [main/:?]
