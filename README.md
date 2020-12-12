@@ -1,11 +1,10 @@
 # InputGenerator
 
-##To build the project
+#### To build the project
 
 ```
 ./gradlew clean jar
 ```
-
 
 #### Data Generator
 
